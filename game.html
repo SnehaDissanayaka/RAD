@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Game</title>
+    <link rel="stylesheet" type="text/css" href="game.css" />
+  </head>
+  <body>
+    <script type="text/javascript" src="game.js"></script>
+    <div>
+      <h1 class="winner">Let's Play</h1>
+      <div class="plygrnd">
+        <div class="dice">
+          <img class="image1" src="dice_6.png" />
+          <img class="image2" src="dice_6.png" />
+        </div>
+        <button id="rllbtn" class="roll" onclick="roll()">Roll the dice</button>
+      </div>
+      <div>
+        <div>
+          <p class="player1">Player 1</p>
+          <p class="marks1">0</p>
+          <p class="player2">Player 2</p>
+          <p class="marks2">0</p>
+        </div>
+      </div>
+      <div>
+        <button onclick="reset()">reset</button>
+        <button id="editbtn" onclick="get_name()">Edit names</button>
+        <button onclick="back()">Back</button>
+      </div>
+    </div>
+  </body>
+</html>

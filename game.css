@@ -1,0 +1,83 @@
+body {
+    background: url(bg.jpg);
+    background-size: cover;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+header {
+
+    font-size: 45px;
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    padding: 0px 25px 16px 25px;
+}
+
+h1 {
+
+    font-size: 70px;
+    text-shadow: 0 12px 6px rgba(0, 0, 0, .2);
+    padding-bottom: 0px;
+}
+
+button {
+    background: #efc5c6;
+    border: 3px solid transparent;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 5px;
+    box-shadow: rgba(255, 244, 244, 0.4) 2px 2px 2px 2px inset;
+    color: black;
+    padding: 12px 21px 12px 21px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button.roll {
+    background: #b1baef;
+}
+
+button.roll:hover {
+    background: #93a1f4;
+}
+
+button.roll:disabled {
+    background: #d3d8f6;
+    color: rgb(131, 131, 131);
+}
+
+
+button:hover {
+    background-color: #f1acae;
+    color: black;
+}
+
+button:disabled {
+    background: #f0d1d2;
+    color: rgb(131, 131, 131);
+}
+
+
+.container {
+    height: 500px;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+.player1, .player2, .marks1, .marks2 {
+    font-size: 30px;
+}
+
+ul {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    list-style-type: none;
+}
+
+li {
+    margin-top: 20px;
+}
